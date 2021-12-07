@@ -7,6 +7,6 @@ let gast = gaesteliste.includes();
 function gaestecheck (anwesenheit){
     let check = gaesteliste.includes(anwesenheit);
     console.log(check);
-    console.log("Bob");
 }
+gaestecheck("Mago");
 
