@@ -4,7 +4,7 @@ const gastebuch = ["Chuck", "John", "Peter", "Robert", "Diana", "Lucy", "Bob", "
 
 function gasteliste(Gast) {
 
-    if (gastebuch.indexOf(Gast) !== -2) {
+    if (gastebuch.indexOf(Gast) !== -1) {
         console.log("Bob",true);
     } else {
         console.log("Metatron",false);
