@@ -6,9 +6,4 @@ function istEnthalten (gast) {
     console.log(Werten);
 }
 istEnthalten("Sarah");
-
-function istEnthalten (gast) {
-    let Werten = gastliste.includes(gast);
-    console.log(Werten);
-}
 istEnthalten("John");
