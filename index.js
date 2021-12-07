@@ -12,3 +12,5 @@ function gasteliste(Gast) {
     
 }
 
+gasteliste("Bob");
+gasteliste("Metatron");
