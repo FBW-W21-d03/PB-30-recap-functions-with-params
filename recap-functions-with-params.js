@@ -2,12 +2,11 @@ const gastliste = ["Chuck", "John", "Peter", "Robert", "Diana", "Lucy", "Bob", "
 
 function gästelisteCheck(Gastes) {
 
-    if (gastliste.indexOf(Gastes) !== -1) {
-        console.log(true);
-    } else {
-        console.log(false);
-    }
-    
+    let ergebnis = gastliste.includes(Gastes);
+
+    console.log(ergebnis);
+
+    return ergebnis;
 }
 
 gästelisteCheck("Peter");
