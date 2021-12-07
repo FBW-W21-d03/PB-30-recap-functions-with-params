@@ -1,4 +1,12 @@
 const gaesteliste = ["Cuck ", "John ", "Peter ", "Robert ", "Diana ","Lucy", "Bob", "Charles", "Anabekke", "ben", "Simon" ];
-gaesteliste.includes("Mago", 2);
-console.log(gaesteliste.includes("Mago"));
+
+
+let gast = gaesteliste.includes();
+
+
+function gaestecheck (anwesenheit){
+    let check = gaesteliste.includes(anwesenheit);
+    console.log(check);
+    console.log("Bob");
+}
 
