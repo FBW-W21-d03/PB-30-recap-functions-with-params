@@ -7,3 +7,5 @@ function istEnthalten (gast) {
 }
 istEnthalten("Sarah");
 istEnthalten("John");
+istEnthalten("Robert");
+istEnthalten("Hayat");
