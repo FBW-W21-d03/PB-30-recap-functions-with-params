@@ -6,14 +6,20 @@ let gastliste = ["Chuck", "John", "Peter", "Robert", "Diana", "Lucy", "Bob", "Ch
 
      if( gastliste.includes(name)) {
 
-         console.log(true);
+         return true;
 
 
      }else {
-         console.log(false);
+         return false;
+         
      }
 
  }
+ console.log(gäste("Eli"));
+ console.log(gäste("John"));
+
+
+ 
  gäste("Eli");
  gäste("John");
  
